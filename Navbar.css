@@ -1,0 +1,96 @@
+/* 🌟 NAVBAR MAIN */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  background: linear-gradient(135deg, #773a28);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌟 LOGO */
+.logo h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* 🌟 LINKS CONTAINER */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* 🌟 LINKS */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* ✨ GOLD HOVER */
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+/* ✨ UNDERLINE ANIMATION */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: #ffd700;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* 🛒 CART LINK */
+.cart-link {
+  position: relative;
+}
+
+/* 🔥 CART BADGE */
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background: #ffd700;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 7px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* ✨ OPTIONAL HOVER SCALE */
+.nav-links a:hover {
+  transform: scale(1.05);
+}
+
+.logout-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  color: #ffd700;
+}

@@ -1,0 +1,46 @@
+.footer {
+  background-color: #773a28;   /* dark purple like your navbar */
+  color: white;
+  padding: 30px 40px;
+}
+
+/* Layout */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Sections */
+.footer-left h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.footer-left p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.footer-links p,
+.footer-contact p {
+  margin: 6px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.footer-links p:hover {
+  color: #d4af37;   /* gold color */
+}
+
+/* Bottom line */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #e0dddd;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}

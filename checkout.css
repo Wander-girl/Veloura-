@@ -1,0 +1,118 @@
+/* PAGE */
+.checkout-page {
+  padding: 40px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* SECTION BOX */
+.section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* INPUT */
+.section input,
+.section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* SUMMARY */
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.place-order {
+  width: 100%;
+  padding: 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.place-order:hover {
+  background: #333;
+}
+
+/* SUCCESS PAGE */
+.success-page {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* 🔥 TRACKING */
+.tracking-container {
+  margin-top: 50px;
+  position: relative;
+}
+
+/* LINE */
+.progress-line {
+  position: absolute;
+  top: 25px;
+  left: 10%;
+  width: 80%;
+  height: 6px;
+  background: #ddd;
+  border-radius: 10px;
+}
+
+/* ANIMATED LINE */
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4caf50, #81c784);
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+
+/* STEPS */
+.steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CIRCLE */
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.circle span {
+  width: 45px;
+  height: 45px;
+  background: #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+/* ACTIVE */
+.circle.active span {
+  background: #4caf50;
+  color: white;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #4caf50;
+}
+
+/* TEXT */
+.circle p {
+  margin-top: 8px;
+  font-size: 13px;
+}

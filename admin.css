@@ -1,0 +1,27 @@
+.admin-container {
+  padding: 40px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-form input,
+.admin-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.admin-form button {
+  padding: 12px;
+  background: brown;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
